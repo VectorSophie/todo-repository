@@ -24,7 +24,7 @@ jobs:
 
       - name: Run deploy script on EC2
         run: |
-        ssh ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} << 'EOF'
+          ssh ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} << 'EOF'
 cd ~/workspace/todo-repository
 ./deploy.sh
 EOF
