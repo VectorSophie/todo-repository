@@ -4,7 +4,7 @@ echo "1. 프로젝트 폴더로 이동"
 cd ~/workspace/todo-repository
 
 echo "2. 최신 코드 pull"
-git pull origin master
+git pull origin main
 
 echo "3. 기존 uvicorn 프로세스 종료"
 # uvicorn 실행 중이면 PID 찾아서 종료
